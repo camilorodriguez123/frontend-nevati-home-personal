@@ -1,0 +1,85 @@
+
+.footer{
+    background-color: var(--vinotinto);
+    width: 80%;
+    margin: 6rem auto;
+ }
+ .footer1{
+   display: flex;
+   justify-content: space-between;
+ }
+ div.footer{
+    margin-bottom: 0;
+ }
+ .contactanos{
+    font-size: 3.2rem;
+    margin: 6rem 5rem 1rem 5rem;
+    font-family: "Oswald", sans-serif;
+    color: var(--amarillo);
+    width: 45%;
+    align-items: center;
+ }
+ a.politicas{
+    color: var(--amarillo);
+ }
+ li.politicas-items{
+    margin: 4rem;
+ }
+ .posicion{
+   display: flex;
+   justify-content: space-around;
+ }
+ .vermas{
+    background-color: var(--amarillo);
+    border: transparent;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    margin: 2rem;
+ }
+ .k{
+    display: none;
+ }
+ div.rym{
+    border: none;
+ }
+ .piedepagina{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: var(--vinotinto);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .emojis-1{
+    display: none;
+ }
+ .d{
+   display: none;
+ }
+ @media ( min-width: 665px ) {
+
+    .k{
+        display: block;
+    }
+    .d{
+      display: block;
+  }
+    div.rym{
+        border-left:solid 0.3rem #FFC917;
+        padding-left: 5rem;
+        margin-left: 0;
+        width: 55%;
+    }
+ }
+ @media ( min-width: 1174px ) {   
+    .emojis-2{
+        display: none;
+    }
+    .emojis-1{
+        display: block;
+ }
+}
